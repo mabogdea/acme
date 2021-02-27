@@ -1,0 +1,88 @@
+/* Globals */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.current {
+  color: #e8491d;
+}
+
+/* Header */
+header {
+  background: #35424a;
+  height: 80px;
+  display: flex;
+  border-bottom: #e8491d 3px solid;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav h1 {
+  font-size: 30px;
+  color: #fff;
+}
+
+header nav h1 span {
+  color: #e8491d;
+}
+
+header nav ul {
+  display: flex;
+}
+
+header nav ul a {
+  font-size: 18px;
+  color: #fff;
+  text-transform: uppercase;
+  margin-left: 13px;
+}
+
+/* Showcase */
+.showcase {
+  background: url(./images/showcase.jpg) center/cover no-repeat;
+  height: 400px;
+}
+
+.showcase .container {
+  height: 100%;
+}
+
+.showcase .container div {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+.showcase .container div h1 {
+  color: #fff;
+  font-size: 50px;
+  line-height: 1.7;
+}
+
+.showcase .container div p {
+  font-size: 19px;
+  color: #fff;
+}
